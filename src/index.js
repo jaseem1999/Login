@@ -3,11 +3,15 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-
+import {AuthContext} from '../../loginai/src/Store/Context';
+import {firebaseApp} from '../src/Components/FirebaseCo/FirebaseCo';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
+  
   <React.StrictMode>
+    <AuthContext.Provider value={{firebaseApp}}>
     <App />
+    </AuthContext.Provider>
   </React.StrictMode>
 );
 

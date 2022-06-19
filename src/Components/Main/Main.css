@@ -1,0 +1,37 @@
+.main{
+    background-image: url("./img/smeta1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+#navbar{
+    border-bottom: 1px solid ;
+}
+.bg-light {
+    
+        --bs-bg-opacity: 1;
+            background-color: #e4e4e417 !important;
+        }
+.nav-login{
+    position: absolute;
+    right: 70px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;   
+}
+.nav-logout {
+    position: absolute;
+    right: 130px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+}
+.nav-logimg img{
+    position: absolute;
+    top : 10px;
+    right: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}

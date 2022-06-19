@@ -1,0 +1,50 @@
+.main {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    overflow: hidden;
+}
+.content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: aliceblue;
+    background: #e4e4e417;
+    padding: 40px;
+    width: 90%;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 5);
+}
+.in{
+    position: absolute;
+    top: 20%;
+    left: 10%;
+}
+.out {
+    position: absolute;
+    top: 20%;
+    right: 10%;
+}
+.btn-light {
+    background-color: #e4e4e417;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+@media screen and (max-width: 775px) {
+    .content {
+        width: 90%;
+    }
+    .in{
+        top: 20%;
+        left: 10%;
+    }
+    .out {
+        top: 20%;
+        right: 10%;
+    }
+}

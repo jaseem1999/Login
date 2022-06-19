@@ -1,0 +1,128 @@
+.login{
+    background-image: url("./img/smeta1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    overflow-x: hidden;
+}
+.login-header{
+    color: #fff;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 25px;
+    text-shadow: 1px 1px 1px #faf6f6;
+}
+.login-img img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    
+}
+#img-login{
+    text-align: center;
+}
+
+.form-login {
+    padding: 15px;
+    margin: auto;
+}
+.form-label{
+    font-size: 15px;
+    font-weight: bold;
+    color: #fff;
+    
+}
+.form-check{
+    background-color: #b2a5a52e;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+}
+.form-check-label{
+    margin-left: 10px;
+}
+.text-muted {
+    --bs-text-opacity: 1;
+    color: #fff !important;
+}
+#formBasicCheckbox{
+    margin-top: 5px;
+    margin-left: 0px;
+}
+#sin-btn{
+    margin-left: 10px;
+}
+.nft {
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 60px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.nft-desc {
+    color: #90d7c2;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+section::before {
+    content: "";
+    position: absolute;
+    top: 10%;
+    right: 10%;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background: linear-gradient(#ffc10742, #ffc1070a);
+    animation: animate 5s ease-in-out infinite;
+    animation-delay: -1s;
+}
+
+section::after {
+    content: "";
+    position: absolute;
+    bottom: 10%;
+    left: 7%;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background: linear-gradient(#ffc10742, #ffc1070a);
+    animation: animate 5s ease-in-out infinite;
+    animation-delay: -2.5s;
+}
+
+@keyframes animate {
+
+    0%,
+    100% {
+        transform: translateY(20px);
+    }
+
+    50% {
+        transform: translateY(-20px);
+    }
+}
+
+.card-login {
+    background-color: hsl(198deg 91% 8% / 37%);
+    height: auto;
+    border: 1px solid #fff;
+    position: relative;
+    top: 35px;
+    margin-left: 200px;
+    box-shadow: 1px 3px 4px 5px #7075ab;
+}
+@media screen and (max-width: 750px) {
+    .card-login {
+        margin-left: 0;
+        margin:  auto;
+    }
+}
+    
